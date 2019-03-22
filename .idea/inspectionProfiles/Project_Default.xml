@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W391" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="data_pb2" />
+          <option value="test_case.mathfunc" />
+          <option value="test_case.testRun.add" />
+          <option value="test_case.testRun.minus" />
+          <option value="test_case.testRun.multi" />
+          <option value="test_case.testRun.divide" />
+          <option value="test_case.mathFunc" />
+          <option value="test_case.testRun.mathFunc" />
+          <option value="test_case.mathTest.mathFunc" />
+          <option value="test_case.mathTest.*" />
+          <option value="test_case.mathFunction.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

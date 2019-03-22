@@ -1,0 +1,17 @@
+syntax="proto3";
+package test_example;
+service model{
+    rpc test_show(test_Request) returns (test_Response){}
+}
+
+
+message test_Request {
+    string index = 1;
+    string name = 2;
+    int64 age = 3;
+}
+
+message test_Response{
+    string stu_class = 1;
+    int64 grade = 2;
+}
